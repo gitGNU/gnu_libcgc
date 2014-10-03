@@ -80,7 +80,7 @@ DIST_COMMON = $(srcdir)/include/include.am $(srcdir)/Makefile.in \
 	$(srcdir)/Makefile.am $(top_srcdir)/configure \
 	$(am__configure_deps) $(srcdir)/config.h.in \
 	$(pkginclude_HEADERS) AUTHORS COPYING ChangeLog INSTALL NEWS \
-	README THANKS TODO ar-lib compile depcomp install-sh missing
+	README THANKS TODO ar-lib compile install-sh missing
 subdir = .
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/configure.ac
