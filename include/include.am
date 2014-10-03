@@ -1,0 +1,1 @@
+pkginclude_HEADERS = include/cgc.h include/memlist.h

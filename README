@@ -1,0 +1,15 @@
+Usage
+======
+
+Prior to allocating any memory call: cgc_init();
+Then add a 'cgc_' to the begining of any C standard library calls.
+
+Example
+========
+#include <stdio.h>
+
+int main(int argc, char* argv[]) {
+	cgc_init();
+	cgc_malloc(256);	
+	return 0;
+}

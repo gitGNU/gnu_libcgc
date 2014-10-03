@@ -1,0 +1,5 @@
+ChangeLog
+==========
+Sep 30 2014: Implementation of C Library functions: cgc_malloc, cgc_realloc, cgc_free.
+Sep 29 2014: Implementation of LibCGC functions: cgc_init, and cgc_cleanup.
+Sep 28 2014: Development of LibCGC begins.
